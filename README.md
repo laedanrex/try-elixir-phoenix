@@ -18,3 +18,18 @@ Ready to run in production? Please [check our deployment guides](https://hexdocs
   * Docs: https://hexdocs.pm/phoenix
   * Mailing list: http://groups.google.com/group/phoenix-talk
   * Source: https://github.com/phoenixframework/phoenix
+
+# CMD
+
+## mix ecto
+
+mix ecto                 # Prints Ecto help information
+mix ecto.create          # Creates the repository storage
+mix ecto.drop            # Drops the repository storage
+mix ecto.dump            # Dumps the repository database structure
+mix ecto.gen.migration   # Generates a new migration for the repo
+mix ecto.gen.repo        # Generates a new repository
+mix ecto.load            # Loads previously dumped database structure
+mix ecto.migrate         # Runs the repository migrations
+mix ecto.migrations      # Displays the repository migration status
+mix ecto.rollback        # Rolls back the repository migrations
